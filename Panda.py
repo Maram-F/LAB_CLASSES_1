@@ -24,7 +24,7 @@ xiang_xiang=Panda(100.75,"female",30, "Sichuan Province")
 gao_gao=Panda(120.3,"male",19,"San Diego Zoo")
 
 
-print(Jia_Jia.gender)
+print(f"Jia Jia gender: {Jia_Jia.gender}")
 print(f"Jia Jia lives in: {Jia_Jia.panda_habitat()}\n")
 print(f"Yang Yang lives in: {yang_yang.panda_habitat()}\n")
 print(f"xiang xiang lives in: {xiang_xiang.panda_habitat()}\n")
