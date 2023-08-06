@@ -7,7 +7,7 @@ class Panda:
         pass
 
     def panda_habitat(self):
-        return f"panda widespread in: {self.habitat}"
+        return {self.habitat}
     
     def panda_food(self):
         if self.habitat=="Sichuan Province":
